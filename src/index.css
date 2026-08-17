@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --color-espresso: #241611;
+  --color-crema: #f2e6d8;
+  --color-clay: #a5522f;
+  --color-bark: #4a3327;
+  --color-gold: #c98f3f;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--color-espresso);
+  color: var(--color-crema);
+  font-family: var(--font-body);
+}
